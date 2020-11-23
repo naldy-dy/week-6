@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\kategori;
 use App\Models\Produk;
+use App\Models\User;
  
 
 
@@ -16,6 +17,10 @@ use App\Models\Produk;
  	function showDetail(Produk $detail){
  		$data['detail'] = $detail;
  		return view('detail', $data);
+ 	}
+ 	function showDetailUser(User $user){
+ 		$data['user'] = $user;
+  		return view('detail-user',$data);
  	}
  	function filterIndex(){
  		// where

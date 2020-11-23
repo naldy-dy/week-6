@@ -28,6 +28,7 @@ Route::get('/',[IndexController:: class, 'showIndex']);
 Route::get('/index',[IndexController:: class, 'showIndex']);
 Route::get('/detail',[IndexController:: class, 'showDetail']);
 Route::get('/detail/{detail}',[IndexController:: class, 'showDetail']);
+Route::get('/detail-user',[IndexController:: class, 'showDetailUser']);
 
 
 

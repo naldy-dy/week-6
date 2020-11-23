@@ -2,7 +2,12 @@
 
 @section('content')
 	<!-- konten disini -->
-<h1>ini beranda</h1>
+
+
+<h3>Pergi ke Toko dengan klik Tombol dibawah</h3> <br><a href="{{url('index')}}" class="btn btn-primary pt-3" target="_blank">
+Pergi ke toko
+</a>
+
 
 
 	<!-- end contten -->

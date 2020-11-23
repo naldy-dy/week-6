@@ -70,7 +70,7 @@
     <div class="col-md-12 container my-3">
       <div class="head-line shadow">
         <div class="ml-3 pt-2 pb-2">
-         <b>Nama Toko : {{ucwords($detail->seller->nama)}}</b>
+         <b>Nama Toko :<a href="{{url('detail-user')}}"> {{ucwords($detail->seller->nama)}} </a></b>
         </div>
       </div>
     </div>
